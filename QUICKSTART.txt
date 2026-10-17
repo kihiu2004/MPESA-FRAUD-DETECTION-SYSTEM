@@ -1,0 +1,23 @@
+M-Pesa Fraud Detection System - Quick Start Guide
+
+WINDOWS (Command Prompt):
+1. Double-click run_simple.bat OR run run.bat from CMD
+2. Choose option 1: Install Dependencies (first time only)
+3. Choose option 2: Run Full Pipeline (to train models)
+4. Choose option 3: Run Dashboard (to use web interface)
+
+LINUX/MAC:
+1. chmod +x run.sh
+2. ./run.sh
+
+DIRECT PYTHON:
+1. pip install -r requirements.txt
+2. python main.py
+3. streamlit run dashboard/streamlit_app.py
+
+FILES CREATED:
+- run.bat / run_simple.bat - Windows launcher with menu
+- run_pipeline.bat - Run full training pipeline
+- run_dashboard.bat - Launch Streamlit dashboard
+- run.sh - Linux/Mac launcher
+- install_dependencies.bat - Install all packages

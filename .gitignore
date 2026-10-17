@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Environments ----
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Data (large & reproducible) ----
+# The PaySim download and the cleaned/featured CSVs are rebuilt by
+# `python main.py` (streamed, memory-bounded), so they are never committed.
+# cleaned_transactions.csv (~499 MB) and paysim.csv (~259 MB) exceed the
+# GitHub 100 MB file limit in any case.
+data/raw/
+data/processed/
+data/external/*
+!data/external/.gitkeep
+src/data/raw/*
+!src/data/raw/.gitkeep
+
+# ---- Trained models (reproducible via `python main.py`) ----
+models/*.pkl
+models/*.joblib
+
+# ---- Logs & debug leftovers ----
+*.log
+*.err
+*.out
+*.tmp

@@ -1,0 +1,10 @@
+# Core runtime dependencies for the M-Pesa Fraud Detection System.
+# Keep this list limited to packages actually imported by the project.
+pandas
+numpy
+scikit-learn
+xgboost
+kagglehub
+streamlit
+# Notebooks in notebooks/ plot with matplotlib
+matplotlib

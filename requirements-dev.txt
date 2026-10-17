@@ -1,0 +1,4 @@
+# Development / test dependencies for the M-Pesa Fraud Detection System.
+# Install with:  pip install -r requirements-dev.txt
+-r requirements.txt
+pytest
